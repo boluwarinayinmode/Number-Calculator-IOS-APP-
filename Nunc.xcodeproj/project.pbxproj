@@ -1,0 +1,583 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8E9AC67E23A7D5E1003CDA08 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E9AC67D23A7D5E1003CDA08 /* AppDelegate.swift */; };
+		8E9AC68023A7D5E1003CDA08 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E9AC67F23A7D5E1003CDA08 /* ViewController.swift */; };
+		8E9AC68323A7D5E1003CDA08 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E9AC68123A7D5E1003CDA08 /* Main.storyboard */; };
+		8E9AC68523A7D5F0003CDA08 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E9AC68423A7D5F0003CDA08 /* Assets.xcassets */; };
+		8E9AC68823A7D5F0003CDA08 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E9AC68623A7D5F0003CDA08 /* LaunchScreen.storyboard */; };
+		8E9AC69323A7D5F0003CDA08 /* NuncTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E9AC69223A7D5F0003CDA08 /* NuncTests.swift */; };
+		8E9AC69E23A7D5F0003CDA08 /* NuncUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E9AC69D23A7D5F0003CDA08 /* NuncUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8E9AC68F23A7D5F0003CDA08 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8E9AC67223A7D5E0003CDA08 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8E9AC67923A7D5E0003CDA08;
+			remoteInfo = Nunc;
+		};
+		8E9AC69A23A7D5F0003CDA08 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8E9AC67223A7D5E0003CDA08 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8E9AC67923A7D5E0003CDA08;
+			remoteInfo = Nunc;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8E9AC67A23A7D5E1003CDA08 /* Nunc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Nunc.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E9AC67D23A7D5E1003CDA08 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8E9AC67F23A7D5E1003CDA08 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8E9AC68223A7D5E1003CDA08 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8E9AC68423A7D5F0003CDA08 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8E9AC68723A7D5F0003CDA08 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8E9AC68923A7D5F0003CDA08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E9AC68E23A7D5F0003CDA08 /* NuncTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NuncTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E9AC69223A7D5F0003CDA08 /* NuncTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NuncTests.swift; sourceTree = "<group>"; };
+		8E9AC69423A7D5F0003CDA08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E9AC69923A7D5F0003CDA08 /* NuncUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NuncUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E9AC69D23A7D5F0003CDA08 /* NuncUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NuncUITests.swift; sourceTree = "<group>"; };
+		8E9AC69F23A7D5F0003CDA08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8E9AC67723A7D5E0003CDA08 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E9AC68B23A7D5F0003CDA08 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E9AC69623A7D5F0003CDA08 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8E9AC67123A7D5E0003CDA08 = {
+			isa = PBXGroup;
+			children = (
+				8E9AC67C23A7D5E1003CDA08 /* Nunc */,
+				8E9AC69123A7D5F0003CDA08 /* NuncTests */,
+				8E9AC69C23A7D5F0003CDA08 /* NuncUITests */,
+				8E9AC67B23A7D5E1003CDA08 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8E9AC67B23A7D5E1003CDA08 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8E9AC67A23A7D5E1003CDA08 /* Nunc.app */,
+				8E9AC68E23A7D5F0003CDA08 /* NuncTests.xctest */,
+				8E9AC69923A7D5F0003CDA08 /* NuncUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8E9AC67C23A7D5E1003CDA08 /* Nunc */ = {
+			isa = PBXGroup;
+			children = (
+				8E9AC67D23A7D5E1003CDA08 /* AppDelegate.swift */,
+				8E9AC67F23A7D5E1003CDA08 /* ViewController.swift */,
+				8E9AC68123A7D5E1003CDA08 /* Main.storyboard */,
+				8E9AC68423A7D5F0003CDA08 /* Assets.xcassets */,
+				8E9AC68623A7D5F0003CDA08 /* LaunchScreen.storyboard */,
+				8E9AC68923A7D5F0003CDA08 /* Info.plist */,
+			);
+			path = Nunc;
+			sourceTree = "<group>";
+		};
+		8E9AC69123A7D5F0003CDA08 /* NuncTests */ = {
+			isa = PBXGroup;
+			children = (
+				8E9AC69223A7D5F0003CDA08 /* NuncTests.swift */,
+				8E9AC69423A7D5F0003CDA08 /* Info.plist */,
+			);
+			path = NuncTests;
+			sourceTree = "<group>";
+		};
+		8E9AC69C23A7D5F0003CDA08 /* NuncUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8E9AC69D23A7D5F0003CDA08 /* NuncUITests.swift */,
+				8E9AC69F23A7D5F0003CDA08 /* Info.plist */,
+			);
+			path = NuncUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8E9AC67923A7D5E0003CDA08 /* Nunc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E9AC6A223A7D5F0003CDA08 /* Build configuration list for PBXNativeTarget "Nunc" */;
+			buildPhases = (
+				8E9AC67623A7D5E0003CDA08 /* Sources */,
+				8E9AC67723A7D5E0003CDA08 /* Frameworks */,
+				8E9AC67823A7D5E0003CDA08 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Nunc;
+			productName = Nunc;
+			productReference = 8E9AC67A23A7D5E1003CDA08 /* Nunc.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8E9AC68D23A7D5F0003CDA08 /* NuncTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E9AC6A523A7D5F0003CDA08 /* Build configuration list for PBXNativeTarget "NuncTests" */;
+			buildPhases = (
+				8E9AC68A23A7D5F0003CDA08 /* Sources */,
+				8E9AC68B23A7D5F0003CDA08 /* Frameworks */,
+				8E9AC68C23A7D5F0003CDA08 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8E9AC69023A7D5F0003CDA08 /* PBXTargetDependency */,
+			);
+			name = NuncTests;
+			productName = NuncTests;
+			productReference = 8E9AC68E23A7D5F0003CDA08 /* NuncTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8E9AC69823A7D5F0003CDA08 /* NuncUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E9AC6A823A7D5F0003CDA08 /* Build configuration list for PBXNativeTarget "NuncUITests" */;
+			buildPhases = (
+				8E9AC69523A7D5F0003CDA08 /* Sources */,
+				8E9AC69623A7D5F0003CDA08 /* Frameworks */,
+				8E9AC69723A7D5F0003CDA08 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8E9AC69B23A7D5F0003CDA08 /* PBXTargetDependency */,
+			);
+			name = NuncUITests;
+			productName = NuncUITests;
+			productReference = 8E9AC69923A7D5F0003CDA08 /* NuncUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8E9AC67223A7D5E0003CDA08 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Boluwarin Ayinmode";
+				TargetAttributes = {
+					8E9AC67923A7D5E0003CDA08 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					8E9AC68D23A7D5F0003CDA08 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 8E9AC67923A7D5E0003CDA08;
+					};
+					8E9AC69823A7D5F0003CDA08 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 8E9AC67923A7D5E0003CDA08;
+					};
+				};
+			};
+			buildConfigurationList = 8E9AC67523A7D5E0003CDA08 /* Build configuration list for PBXProject "Nunc" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8E9AC67123A7D5E0003CDA08;
+			productRefGroup = 8E9AC67B23A7D5E1003CDA08 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8E9AC67923A7D5E0003CDA08 /* Nunc */,
+				8E9AC68D23A7D5F0003CDA08 /* NuncTests */,
+				8E9AC69823A7D5F0003CDA08 /* NuncUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8E9AC67823A7D5E0003CDA08 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E9AC68823A7D5F0003CDA08 /* LaunchScreen.storyboard in Resources */,
+				8E9AC68523A7D5F0003CDA08 /* Assets.xcassets in Resources */,
+				8E9AC68323A7D5E1003CDA08 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E9AC68C23A7D5F0003CDA08 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E9AC69723A7D5F0003CDA08 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8E9AC67623A7D5E0003CDA08 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E9AC68023A7D5E1003CDA08 /* ViewController.swift in Sources */,
+				8E9AC67E23A7D5E1003CDA08 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E9AC68A23A7D5F0003CDA08 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E9AC69323A7D5F0003CDA08 /* NuncTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E9AC69523A7D5F0003CDA08 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E9AC69E23A7D5F0003CDA08 /* NuncUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8E9AC69023A7D5F0003CDA08 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8E9AC67923A7D5E0003CDA08 /* Nunc */;
+			targetProxy = 8E9AC68F23A7D5F0003CDA08 /* PBXContainerItemProxy */;
+		};
+		8E9AC69B23A7D5F0003CDA08 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8E9AC67923A7D5E0003CDA08 /* Nunc */;
+			targetProxy = 8E9AC69A23A7D5F0003CDA08 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8E9AC68123A7D5E1003CDA08 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8E9AC68223A7D5E1003CDA08 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8E9AC68623A7D5F0003CDA08 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8E9AC68723A7D5F0003CDA08 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8E9AC6A023A7D5F0003CDA08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8E9AC6A123A7D5F0003CDA08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8E9AC6A323A7D5F0003CDA08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Nunc/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Toria.Nunc;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8E9AC6A423A7D5F0003CDA08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Nunc/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Toria.Nunc;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8E9AC6A623A7D5F0003CDA08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NuncTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Toria.NuncTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Nunc.app/Nunc";
+			};
+			name = Debug;
+		};
+		8E9AC6A723A7D5F0003CDA08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NuncTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Toria.NuncTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Nunc.app/Nunc";
+			};
+			name = Release;
+		};
+		8E9AC6A923A7D5F0003CDA08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NuncUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Toria.NuncUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Nunc;
+			};
+			name = Debug;
+		};
+		8E9AC6AA23A7D5F0003CDA08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NuncUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Toria.NuncUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Nunc;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8E9AC67523A7D5E0003CDA08 /* Build configuration list for PBXProject "Nunc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E9AC6A023A7D5F0003CDA08 /* Debug */,
+				8E9AC6A123A7D5F0003CDA08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E9AC6A223A7D5F0003CDA08 /* Build configuration list for PBXNativeTarget "Nunc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E9AC6A323A7D5F0003CDA08 /* Debug */,
+				8E9AC6A423A7D5F0003CDA08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E9AC6A523A7D5F0003CDA08 /* Build configuration list for PBXNativeTarget "NuncTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E9AC6A623A7D5F0003CDA08 /* Debug */,
+				8E9AC6A723A7D5F0003CDA08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E9AC6A823A7D5F0003CDA08 /* Build configuration list for PBXNativeTarget "NuncUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E9AC6A923A7D5F0003CDA08 /* Debug */,
+				8E9AC6AA23A7D5F0003CDA08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8E9AC67223A7D5E0003CDA08 /* Project object */;
+}
