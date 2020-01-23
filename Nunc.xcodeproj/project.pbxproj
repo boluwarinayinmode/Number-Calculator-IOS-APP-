@@ -14,6 +14,8 @@
 		8E9AC68823A7D5F0003CDA08 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E9AC68623A7D5F0003CDA08 /* LaunchScreen.storyboard */; };
 		8E9AC69323A7D5F0003CDA08 /* NuncTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E9AC69223A7D5F0003CDA08 /* NuncTests.swift */; };
 		8E9AC69E23A7D5F0003CDA08 /* NuncUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E9AC69D23A7D5F0003CDA08 /* NuncUITests.swift */; };
+		8E9AC6AC23A7D629003CDA08 /* conver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E9AC6AB23A7D629003CDA08 /* conver.swift */; };
+		8ED6D62923C5F49C00EE5A35 /* ResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ED6D62823C5F49C00EE5A35 /* ResultsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		8E9AC69923A7D5F0003CDA08 /* NuncUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NuncUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E9AC69D23A7D5F0003CDA08 /* NuncUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NuncUITests.swift; sourceTree = "<group>"; };
 		8E9AC69F23A7D5F0003CDA08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E9AC6AB23A7D629003CDA08 /* conver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = conver.swift; sourceTree = "<group>"; };
+		8ED6D62823C5F49C00EE5A35 /* ResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,9 +104,11 @@
 				8E9AC67D23A7D5E1003CDA08 /* AppDelegate.swift */,
 				8E9AC67F23A7D5E1003CDA08 /* ViewController.swift */,
 				8E9AC68123A7D5E1003CDA08 /* Main.storyboard */,
+				8ED6D62823C5F49C00EE5A35 /* ResultsViewController.swift */,
 				8E9AC68423A7D5F0003CDA08 /* Assets.xcassets */,
 				8E9AC68623A7D5F0003CDA08 /* LaunchScreen.storyboard */,
 				8E9AC68923A7D5F0003CDA08 /* Info.plist */,
+				8E9AC6AB23A7D629003CDA08 /* conver.swift */,
 			);
 			path = Nunc;
 			sourceTree = "<group>";
@@ -258,6 +264,8 @@
 			files = (
 				8E9AC68023A7D5E1003CDA08 /* ViewController.swift in Sources */,
 				8E9AC67E23A7D5E1003CDA08 /* AppDelegate.swift in Sources */,
+				8E9AC6AC23A7D629003CDA08 /* conver.swift in Sources */,
+				8ED6D62923C5F49C00EE5A35 /* ResultsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
